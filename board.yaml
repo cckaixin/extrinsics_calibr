@@ -1,0 +1,11 @@
+# ChArUco board configuration
+board_name: "ChArUco"
+
+# ChArUco board parameters
+squares_x: 5                  # Number of squares along the X-axis
+squares_y: 7                  # Number of squares along the Y-axis
+square_length_mm: 39.3          # Length of each square in millimeters
+marker_length_mm: 29.5          # Length of each ArUco marker in millimeters
+
+# ArUco dictionary
+aruco_dict: DICT_4X4_50       # ArUco dictionary type (e.g., DICT_4X4_50, DICT_6X6_250, etc.)
